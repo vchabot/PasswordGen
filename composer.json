@@ -1,0 +1,21 @@
+{
+    "name": "vchabot/passwordgen",
+    "type": "library",
+    "description": "PasswordGen is a PHP library generating passwords for you.",
+    "keywords": ["password", "generator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Chabot",
+            "email": "vince.chabot@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "PasswordGen": "src/"
+        }
+    }
+}
